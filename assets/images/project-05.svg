@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p5bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF7F9"/>
+      <stop offset="100%" stop-color="#EFE6EC"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" rx="16" fill="url(#p5bg)"/>
+
+  <!-- Gable Box with handle cut-out for Newborn set -->
+  <g transform="translate(160, 60)">
+    <!-- Main Box -->
+    <path d="M20,90 L90,20 L160,90 L160,210 L20,210 Z" fill="#FFFFFF" stroke="#CEB2BE" stroke-width="2"/>
+    <!-- Handle cutout -->
+    <rect x="70" y="45" width="40" height="14" rx="7" fill="#EFE6EC" stroke="#8E7592" stroke-width="1.5"/>
+    
+    <!-- Pastel playful pattern on box face -->
+    <circle cx="50" cy="130" r="10" fill="#E3D2C8" opacity="0.7"/>
+    <circle cx="130" cy="140" r="14" fill="#CEB2BE" opacity="0.6"/>
+    <circle cx="70" cy="180" r="8" fill="#8E7592" opacity="0.4"/>
+    
+    <!-- Cloud & Teddy minimalist face -->
+    <path d="M75,120 Q90,105 105,120" fill="none" stroke="#572F54" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="80" cy="115" r="2" fill="#572F54"/>
+    <circle cx="100" cy="115" r="2" fill="#572F54"/>
+
+    <text x="90" y="155" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#572F54" text-anchor="middle" letter-spacing="2">KIDIA</text>
+    <text x="90" y="172" font-family="'Plus Jakarta Sans', sans-serif" font-size="7" fill="#8E7592" text-anchor="middle" letter-spacing="1">NEWBORN CARE KIT</text>
+  </g>
+
+  <rect x="30" y="290" width="160" height="26" rx="13" fill="#CEB2BE" fill-opacity="0.9"/>
+  <text x="110" y="307" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#572F54" font-weight="700" text-anchor="middle" letter-spacing="1">NEWBORN PACKAGING</text>
+</svg>

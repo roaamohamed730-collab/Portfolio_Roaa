@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p1bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2D1C2A"/>
+      <stop offset="100%" stop-color="#4A2F48"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F2DFD5"/>
+      <stop offset="50%" stop-color="#E3D2C8"/>
+      <stop offset="100%" stop-color="#C5B0A2"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" rx="16" fill="url(#p1bg)"/>
+  
+  <!-- Subtle dieline lines -->
+  <g stroke="#E3D2C8" stroke-opacity="0.15" stroke-dasharray="3 3">
+    <rect x="40" y="40" width="420" height="270" rx="10" fill="none"/>
+    <line x1="250" y1="40" x2="250" y2="310"/>
+  </g>
+
+  <!-- Luxury sliding drawer box illustration -->
+  <g transform="translate(140, 100)">
+    <!-- Outer sleeve -->
+    <rect x="0" y="20" width="170" height="130" rx="8" fill="#572F54" stroke="url(#gold)" stroke-width="1.5"/>
+    <!-- Arabesque geometric pattern -->
+    <circle cx="85" cy="85" r="36" fill="none" stroke="url(#gold)" stroke-width="1" stroke-dasharray="5 2"/>
+    <polygon points="85,55 110,85 85,115 60,85" fill="none" stroke="url(#gold)" stroke-width="1.5"/>
+    <text x="85" y="90" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="url(#gold)" text-anchor="middle" letter-spacing="3">مقام العود</text>
+    
+    <!-- Sliding inner tray emerging -->
+    <rect x="130" y="32" width="110" height="106" rx="6" fill="#CEB2BE" fill-opacity="0.2" stroke="url(#gold)" stroke-width="1.5"/>
+    <!-- Pull ribbon -->
+    <rect x="235" y="75" width="22" height="20" rx="3" fill="url(#gold)"/>
+  </g>
+
+  <!-- Title Badge -->
+  <rect x="30" y="290" width="160" height="26" rx="13" fill="#572F54" fill-opacity="0.8"/>
+  <text x="110" y="307" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#E3D2C8" font-weight="600" text-anchor="middle" letter-spacing="1">INTERACTIVE UNBOXING</text>
+</svg>

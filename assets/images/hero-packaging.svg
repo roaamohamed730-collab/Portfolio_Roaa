@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8E7592" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#CEB2BE" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#E3D2C8" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="boxGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8E7592"/>
+      <stop offset="100%" stop-color="#572F54"/>
+    </linearGradient>
+    <linearGradient id="boxGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#CEB2BE"/>
+      <stop offset="100%" stop-color="#8E7592"/>
+    </linearGradient>
+    <linearGradient id="foilGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F7EBE1"/>
+      <stop offset="50%" stop-color="#E3D2C8"/>
+      <stop offset="100%" stop-color="#F2DFD5"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#241C26" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  
+  <!-- Backdrop Canvas -->
+  <rect width="600" height="500" rx="24" fill="url(#heroBg)"/>
+  
+  <!-- Dieline grid lines -->
+  <g stroke="#8E7592" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4 4">
+    <line x1="50" y1="50" x2="550" y2="50"/>
+    <line x1="50" y1="450" x2="550" y2="450"/>
+    <line x1="50" y1="50" x2="50" y2="450"/>
+    <line x1="550" y1="50" x2="550" y2="450"/>
+    <line x1="300" y1="30" x2="300" y2="470"/>
+    <circle cx="300" cy="250" r="160"/>
+    <circle cx="300" cy="250" r="100"/>
+  </g>
+
+  <!-- Technical Marks -->
+  <text x="65" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#8E7592" letter-spacing="2">STRUCTURAL DIELINE • 1:1 SCALE</text>
+  <text x="65" y="435" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#8E7592" letter-spacing="1">BLEED 3mm | OFFSET CMYK + 1 SPOT PANTONE</text>
+  <text x="480" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#8E7592" text-anchor="end">ISO 12647-2</text>
+
+  <!-- Isometric Packaging Box Assembly -->
+  <g filter="url(#shadow)" transform="translate(300, 260)">
+    <!-- Base Shadow -->
+    <ellipse cx="0" cy="90" rx="140" ry="40" fill="#3D293B" opacity="0.15"/>
+    
+    <!-- Left Face -->
+    <polygon points="-120,-30 0,40 0,140 -120,70" fill="url(#boxGrad1)"/>
+    <!-- Right Face -->
+    <polygon points="0,40 120,-30 120,70 0,140" fill="url(#boxGrad2)"/>
+    <!-- Top Face -->
+    <polygon points="0,-100 120,-30 0,40 -120,-30" fill="#CEB2BE" opacity="0.95"/>
+
+    <!-- Foil Stamping details -->
+    <!-- Geometric emblem on left face -->
+    <g transform="translate(-60, 55) skewY(30) scale(0.6)">
+      <circle cx="0" cy="0" r="28" fill="none" stroke="url(#foilGrad)" stroke-width="2"/>
+      <polygon points="0,-18 16,14 -16,14" fill="none" stroke="url(#foilGrad)" stroke-width="1.5"/>
+      <text x="0" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="url(#foilGrad)" text-anchor="middle" letter-spacing="3">ROAA</text>
+    </g>
+
+    <!-- Top fold detail / ribbon accent -->
+    <path d="M-40,-50 L0,-25 L40,-50 L0,-75 Z" fill="#E3D2C8" opacity="0.8"/>
+  </g>
+
+  <!-- Floating Dieline Tags -->
+  <g transform="translate(110, 140)">
+    <rect width="110" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.85" stroke="#CEB2BE" stroke-width="1"/>
+    <circle cx="16" cy="16" r="4" fill="#8E7592"/>
+    <text x="28" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#572F54">Tuck-End Box</text>
+  </g>
+
+  <g transform="translate(380, 340)">
+    <rect width="130" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.85" stroke="#CEB2BE" stroke-width="1"/>
+    <circle cx="16" cy="16" r="4" fill="#572F54"/>
+    <text x="28" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#572F54">Hot Foil &amp; Deboss</text>
+  </g>
+</svg>

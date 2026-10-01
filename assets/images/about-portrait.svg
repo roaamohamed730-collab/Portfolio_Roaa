@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 550" width="100%" height="100%">
+  <defs>
+    <linearGradient id="portraitBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8E7592" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#CEB2BE" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#E3D2C8" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8E7592"/>
+      <stop offset="100%" stop-color="#CEB2BE"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="450" height="550" rx="24" fill="url(#portraitBg)"/>
+  
+  <!-- Architectural framing lines (Packaging dieline inspiration) -->
+  <rect x="25" y="25" width="400" height="500" rx="16" fill="none" stroke="#8E7592" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <circle cx="225" cy="220" r="130" fill="#FFFFFF" fill-opacity="0.5"/>
+
+  <!-- Artistic Designer Silhouette / Monogram Illustration -->
+  <g transform="translate(225, 230)">
+    <!-- Elegant stylized silhouette portrait -->
+    <path d="M-50,150 C-45,90 -20,80 -20,50 C-20,35 -35,30 -35,-10 C-35,-45 -10,-75 25,-75 C55,-75 75,-45 75,-15 C75,25 55,40 50,55 C50,85 75,95 85,150 Z" fill="#572F54" opacity="0.85"/>
+    
+    <!-- Hair bun / artistic touch -->
+    <circle cx="5" cy="-80" r="28" fill="#572F54" opacity="0.9"/>
+
+    <!-- Subtle pencil / ruler in hand motif -->
+    <line x1="-35" y1="90" x2="-80" y2="40" stroke="#E3D2C8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Dieline corner crop marks -->
+  <g stroke="#8E7592" stroke-width="2">
+    <!-- Top Left -->
+    <line x1="15" y1="25" x2="35" y2="25"/>
+    <line x1="25" y1="15" x2="25" y2="35"/>
+    <!-- Top Right -->
+    <line x1="415" y1="25" x2="435" y2="25"/>
+    <line x1="425" y1="15" x2="425" y2="35"/>
+    <!-- Bottom Left -->
+    <line x1="15" y1="525" x2="35" y2="525"/>
+    <line x1="25" y1="515" x2="25" y2="535"/>
+    <!-- Bottom Right -->
+    <line x1="415" y1="525" x2="435" y2="525"/>
+    <line x1="425" y1="515" x2="425" y2="535"/>
+  </g>
+
+  <!-- Tag badge -->
+  <g transform="translate(135, 475)">
+    <rect width="180" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.95" stroke="#CEB2BE" stroke-width="1.5"/>
+    <text x="90" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#572F54" text-anchor="middle" letter-spacing="1">ROAA MOHAMED</text>
+  </g>
+</svg>
